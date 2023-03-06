@@ -1,0 +1,5 @@
+function onLoad() {
+
+var cal = g_form.getReference('caller_id');
+	alert('email id is ' +cal.email + '\n'  + 'full name is ' + cal.name);
+}
