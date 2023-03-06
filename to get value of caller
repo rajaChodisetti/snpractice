@@ -1,0 +1,6 @@
+function onLoad() {
+   //Type appropriate comment here, and begin script below
+// to get value of caller
+	var cal = g_form.getDisplayBox('caller_id').value;
+	alert(cal);
+}
