@@ -1,0 +1,13 @@
+{
+var cal = g_form.getReference('caller_id',abc);	
+	function abc(cal)
+	{
+		if(cal.vip == true)
+			{
+				alert(cal.name + ' ' +cal.email);
+			}
+		else
+			alert(cal.name);
+			
+}
+}
